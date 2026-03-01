@@ -1,6 +1,4 @@
-/* Здесь вы напишете основную часть стилей страницы.
-
-Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
+/*Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
 ✦ like-icon — для svg-иконки анимированного сердца
 ✦ card__like-button — для кнопки Like рядом с иконкой
 ✦ card__icon-button — для кнопки, оборачивающей иконку
@@ -11,6 +9,45 @@
 */
 
 .page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font);
+  font-variation-settings: var(--text-weight);
+  background-image: var(--background-gradient);
+  background-size: cover;
+}
+
+.header {
+  padding: var(--block-padding-top-bottom) var(--block-padding-right-left);
+  font-family: var(--accent-font);
+  background-color: var(--background-color);
+  border: 2px solid var(--main-border);
+}
+
+.block-width {
+  width: var(--block-width);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo {
+  font-size: var(--logo-size);
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+}
+
+.header-title {
+  font-size: var(--header-title);
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
 }
