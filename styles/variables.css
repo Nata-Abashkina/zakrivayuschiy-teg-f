@@ -1,8 +1,8 @@
 :root {
   --main-font: 'Inter Variable', 'Arial', sans-serif;
   --accent-font: 'Press Start 2P';
-  --title-weight: 717;
-  --text-weight: 410;
+  --title-weight: wght 717;
+  --text-weight: wght 410;
   --logo-size: clamp(49px, 5vw, 65px);
   --header-title: clamp(14px, 3vw, 23px);
   --background-gradient: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
