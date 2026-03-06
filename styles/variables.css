@@ -7,8 +7,12 @@
   --header-title: clamp(14px, 3vw, 23px);
   --background-gradient: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   --block-width: clamp(375px, 48.61vw, 700px);
+  --card-image-label-width-height: clamp(371px, 48.317vw, 696px);
+  --save-button-width: clamp(306px, 23.264vw, 335px);
+  --dialog-width: clamp(341px, 24.514vw, 353px);
   --block-padding-top-bottom: clamp(122px, 32.32vw, 130px);
   --block-padding-right-left: clamp(16px, 4vw, 122.5px);
   --background-color: #fff;
   --main-border: #000;
+  --dialog-opacity: rgba(0 0 0 / 0.75);
 }
