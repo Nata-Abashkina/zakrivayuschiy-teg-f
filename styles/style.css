@@ -63,12 +63,6 @@
   margin-bottom: 50px;
 } 
 
-
-.card {
-  
-
-}
-
 .card-title {
   padding: 4px 10px;
   font-size: 18px;
@@ -85,8 +79,37 @@
 
 .card-image {
   inline-size: 100%;
+  block-size: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.card-image-brightness {
+  filter: brightness(150%);
+}
+
+.card-image-grayscale {
+  filter: grayscale(50%);
+}
+
+.card-image-hue-rotate {
+  filter: hue-rotate(-75deg);
+}
+
+.card-image-sepia {
+  filter: sepia(78%);
+}
+
+.card-image-contrast {
+  filter: contrast(150%);
+}
+
+.card-image-saturate {
+  filter: saturate(300%);
+}
+
+.card-image-filters {
+  filter: hue-rotate(-50deg) saturate(150%) contrast(30%) brightness(175%);
 }
 
 .card-label {
@@ -282,7 +305,7 @@
   transition: linear 0.3s;
 }
 
-.like-icon:hover .core{
+.like-icon:hover .core {
   fill: var(--heart-hover-core);
   transition-delay: 0s;
 }
@@ -292,7 +315,7 @@
   transition-delay: 0.05s;
 }
 
-.like-icon:active .core{
+.like-icon:active .core {
   fill: var(--heart-animation-core);
   transition-delay: 0s;
 }
@@ -302,7 +325,7 @@
   transition-delay: 0.05s;
 }
 
-.like-icon.is-liked .core{
+.like-icon.is-liked .core {
   fill: var(--heart-animation-core);
   transition-delay: 0s;
 }
