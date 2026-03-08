@@ -149,8 +149,9 @@
 .like-icon {
   align-self: center;
   justify-self: center;
-  inline-size: 40px;
-  block-size: 37px;
+  inline-size: 27px;
+  block-size: 24px;
+  transform: scale(1.5);
 }
 
 .button {
