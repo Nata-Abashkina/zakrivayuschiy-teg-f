@@ -1,15 +1,14 @@
 :root {
-  --main-font: 'Inter Variable', 'Arial', sans-serif;
-  --accent-font: 'Press Start 2P';
-  --title-weight: wght 717;
-  --text-weight: wght 410;
+  --main-font: 'Inter', 'Arial', sans-serif;
+  --accent-font: 'Press Start 2P', 'Arial', sans-serif;
+  --title-weight: 715;
+  --text-weight: 410;
   --text-color-blind-mode: #fff;
   --logo-size: clamp(49px, 5vw, 65px);
-  --header-title: clamp(14px, 3vw, 23px);
+  --header-title: clamp(14px, 2.5vw, 23px);
   --background-gradient: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   --block-width: clamp(375px, 48.61vw, 700px);
-  --card-image-label-width-height: clamp(371px, 48.317vw, 696px);
-  --save-button-width: clamp(306px, 23.264vw, 335px);
+  --card-image-label-width-height: clamp(371px, 48.335vw, 696px);
   --dialog-width: clamp(341px, 24.514vw, 353px);
   --block-padding-top-bottom: clamp(122px, 32.32vw, 130px);
   --block-padding-right-left: clamp(16px, 4vw, 122.5px);
