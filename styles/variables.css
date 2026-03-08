@@ -3,6 +3,7 @@
   --accent-font: 'Press Start 2P';
   --title-weight: wght 717;
   --text-weight: wght 410;
+  --text-color-blind-mode: #fff;
   --logo-size: clamp(49px, 5vw, 65px);
   --header-title: clamp(14px, 3vw, 23px);
   --background-gradient: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
@@ -15,4 +16,11 @@
   --background-color: #fff;
   --main-border: #000;
   --dialog-opacity: rgba(0 0 0 / 0.75);
+  --heart-contour: #000;
+  --heart-animation-contour: #f00;
+  --heart-sparks: #f00;
+  --heart-animation-core: #f00;
+  --heart-animation-main-body: #f00;
+  --heart-hover-core: #000;
+  --heart-hover-main-body: #000;
 }
