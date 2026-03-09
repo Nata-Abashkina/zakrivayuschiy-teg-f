@@ -215,6 +215,7 @@
 }
 
 .floppy-disk-save {
+  block-size: 39px;
   inline-size: 39px;
 }
 
